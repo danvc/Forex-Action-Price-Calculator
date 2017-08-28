@@ -1,0 +1,21 @@
+{
+  "name": "forex-price-calculator",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "Electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+  },
+  "devDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "semantic-ui-react": "^0.71.3",
+    "electron": "^1.6.11",
+    "electron-packager": "^9.0.0",
+    "electron-prebuilt-compile": "^1.6.11",
+    "semantic-ui": "^2.2.11"
+  }
+}
